@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 5</title>
+</head>
+<header>
+    <h1>Cantidad de horas en los videos de r/argentinaPrograma</h1>
+</header>
+
+<body>
+    <form>
+        <label for="horas-de-video"> Cantidad de horas del video: </label>
+        <input type="number" id="horas-de-video" />
+        <label for="minutos-de-video"> Cantidad de minutos del video: </label>
+        <input type="number" id="minutos-de-video" />
+        <label for="segundos-de-video">Cantidad de segundos del video</label>
+        <input type="number" id="segundos-de-video" />
+        <button type="submit" id="boton-sumar">Calcular tiempo total</button>
+        <button type="submit" id="boton-limpiar">Limpiar</button>
+    </form>
+    <div>
+        <p>
+            El tiempo total de todos los videos es:
+            <strong id="horas-totales-video"></strong> horas,
+            <strong id="minutos-totales-video"></strong> minutos,
+            <strong id="segundos-totales-video"></strong> segundos.
+        </p>
+    </div>
+
+    <script type="text/javascript" src="tarea3.js"></script>
+</body>
+
+
+</html>
