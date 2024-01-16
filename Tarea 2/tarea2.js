@@ -30,5 +30,3 @@ function mostrarInformacionUsuario() {
     nodoInformacion.appendChild(informacionUsuario);
     footer.appendChild(nodoInformacion);
 }
-
-
